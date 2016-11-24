@@ -11,6 +11,10 @@ app.use(function (req, res, next){
 });
 
 app.get("/", function(req, res){
+    res.sendFile(__dirname + "/index.html");
+});
+
+app.get("/:whoami", function(req, res){
     var ip = req.headers["x-forwarded-for"];
     var lang = req.headers["accept-language"].split(",")[0];
     var soft = req.headers["user-agent"].split(") ")[0].split(" (")[1];

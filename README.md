@@ -1,1 +1,3 @@
-Created for learning purposes only, with big help from Rafael J. Rodriguez - "https://github.com/Rafase282".
+FreeCodeCamp API Project: Request Header Parser Microservice.
+
+Created for learning purposes, with huge help from Rafael J. Rodriguez - "https://github.com/Rafase282".
